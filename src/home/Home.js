@@ -25,7 +25,7 @@ export default function Home() {
         <>
             {
                 isLoading ? "Loading" : <div>
-                    <h1 className='my-5 text-align-center'>Exam Task</h1>
+                    <h1 className='my-5 text-center'>Exam Task</h1>
                     <div className="mt-5">
                         <Table striped bordered hover>
                             <thead>
