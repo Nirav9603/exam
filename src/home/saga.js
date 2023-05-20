@@ -3,9 +3,8 @@ import { get } from "../utils/Axios";
 import { getHomeDataFailed, getHomeDataSuccess } from "./action";
 import { GET_DATA } from "./actionType";
 
-/**
- * Get All Post Api
- */
+//All Users Api
+
 function* getHomePageContent() {
   try {
     const response = yield call(get, `/users`);

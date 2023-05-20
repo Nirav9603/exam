@@ -13,9 +13,7 @@ import {
   
   export default (state = initState, action) => {
     switch (action.type) {
-      /**
-       * Get All Post Api
-       */
+      //Get All Users Api
       case GET_DATA:
         state = { ...state, loading: true };
         break;
